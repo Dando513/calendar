@@ -41,6 +41,8 @@ $("button").on("click",function(){
 
 var textInput=$(this).siblings("input").val();
 console.log(textInput);  
+
+localStorage.setItem("9",textInput);
 });
 
 
